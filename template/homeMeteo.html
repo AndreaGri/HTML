@@ -1,0 +1,27 @@
+<html>
+    <script type=text/javascript src="{{url_for('js', filename='jsMeteo.js') }}"></script>
+    <head>
+        <title>
+            {{title}}
+        </title>
+    </head>
+    <body>
+        <div>
+            <p>
+                {{sottotitolo}}
+            </p>
+        </div>
+        <div>
+            <p>
+                {{inserimento}}
+            </p>
+        </div>
+        <div>
+            <input type="search">
+            <button onclick="Cerca()">{{cerca}}</button>
+        </div>
+        <p id="meteo">
+
+        </p>
+    </body>
+</html>
