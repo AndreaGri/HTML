@@ -1,5 +1,4 @@
 <html>
-    <script type=text/javascript src="{{url_for('js', filename='jsMeteo.js') }}"></script>
     <head>
         <title>
             {{title}}
@@ -17,11 +16,12 @@
             </p>
         </div>
         <div>
-            <input type="search">
-            <button onclick="Cerca()">{{cerca}}</button>
+            <input type="search" id="in">
+            <button onclick="Cerca()"> {{cerca}} </button>
         </div>
         <p id="meteo">
 
         </p>
+        <script type=text/javascript src="{{url_for('static', filename='js/Meteo.js')}}"></script>
     </body>
 </html>
