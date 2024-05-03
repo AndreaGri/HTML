@@ -1,0 +1,46 @@
+body{background-color:rgba(95, 158, 160, 0.491);}
+h1{
+    color: orange;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Georgia;
+    text-align: center;
+    padding: 7px;
+    
+}
+.sottotitolo{
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    margin: auto 0;
+}
+
+.sottotitolo1{
+    text-align: center;
+    position: relative;
+    right: 37%;
+    top: 20%;
+}
+
+.inp{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+header{
+    background-color:darkolivegreen;
+    border-radius: 20px;
+}
+input{
+    border-radius: 20px;
+    height: 30px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:color-mix(in srgb,  rgb(0, 119, 255) , red);
+}
+.meteo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

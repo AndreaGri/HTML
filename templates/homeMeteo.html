@@ -1,27 +1,37 @@
 <html>
+    <link rel="stylesheet" href="static/css/styleMeteo.css">
     <head>
         <title>
             {{title}}
         </title>
     </head>
+    <header>
+        <h1>
+            Il Meteo
+        </h1>
+    </header>
     <body>
-        <div>
+        
+        
+        <div class="sottotitolo">
             <p>
                 {{sottotitolo}}
             </p>
         </div>
-        <div>
+        <div class="sottotitolo1">
             <p>
                 {{inserimento}}
             </p>
         </div>
-        <div>
+        <div class="inp">
             <input type="search" id="in">
             <button onclick="Cerca()"> {{cerca}} </button>
         </div>
-        <p id="meteo">
-
-        </p>
+        
+        <div class="meteo1">
+            <p id="meteo">
+            </p>
+        </div>
         <script type=text/javascript src="{{url_for('static', filename='js/Meteo.js')}}"></script>
     </body>
 </html>
