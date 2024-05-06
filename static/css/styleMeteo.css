@@ -13,6 +13,8 @@ h1{
     padding-top: 20px;
     position: relative;
     margin: auto 0;
+    font-size: 20px;
+
 }
 
 .sottotitolo1{
@@ -26,7 +28,10 @@ h1{
     position: absolute;
     left: 5%;
     top: 50%;
+    font-size: 20px;
 }
+    
+
 header{
     background-color:darkolivegreen;
     border-radius: 20px;
@@ -43,4 +48,5 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 }

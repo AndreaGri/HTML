@@ -11,19 +11,16 @@
         </h1>
     </header>
     <body>
-        
-        
         <div class="sottotitolo">
             <p>
                 {{sottotitolo}}
             </p>
         </div>
-        <div class="sottotitolo1">
+        <div class="inp"class="sottotitolo1">
             <p>
                 {{inserimento}}
             </p>
-        </div>
-        <div class="inp">
+         
             <input type="search" id="in">
             <button onclick="Cerca()"> {{cerca}} </button>
         </div>
@@ -31,6 +28,16 @@
         <div class="meteo1">
             <p id="meteo">
             </p>
+        </div>
+        <div>
+            <p>
+                <h4>
+                    Temporali al Nord!!!
+                    Allerta gialla
+                </h4>
+                <img src="../img/temporali.png">
+            </p>
+            
         </div>
         <script type=text/javascript src="{{url_for('static', filename='js/Meteo.js')}}"></script>
     </body>
