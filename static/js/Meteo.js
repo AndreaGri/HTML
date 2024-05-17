@@ -29,6 +29,7 @@ function Cerca()  {
         console.log([tempmin,tempmax,tempperc])
         console.log(tempValue)
         console.log([lat,lon])
+       
         document.getElementById('meteo').innerHTML=(
             'Temperatura: '+ tempValue+ '</br>'+
             'Temperatura minima: ' + tempmin+ '</br>'+

@@ -25,17 +25,23 @@
             <button onclick="Cerca()"> {{cerca}} </button>
         </div>
         
-        <div class="meteo1">
+        <div class="meteo1" >
             <p id="meteo">
             </p>
         </div>
-        <div class="divimg">
+        <div class="divimg" >
             <p>
                 <h4 style="color: red;">
                     Temporali al Nord!!!
                     Allerta gialla
                 </h4>
                 <img src="{{url_for('static', filename='temporali.png')}}" >
+            </p>
+            <p>
+                <h4 style="color: red;"> 
+                    Alluvioni Milano Niguarda!!!
+                </h4>
+                <img src="{{url_for('static', filename='seveso.jpg')}}" >
             </p>
             
         </div>
